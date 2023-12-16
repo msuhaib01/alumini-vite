@@ -11,7 +11,6 @@ function App() {
       <div className="navbar">
         <div className="nav_left">LOGO</div>
         <div className="nav_right">
-          <a>Home</a>
           <a>Nust</a>
           <a>Alumni</a>
         </div>
@@ -22,6 +21,7 @@ function App() {
       <div className="content">
         <div className="homecoming_intro">
           <h1>HOMECOMING INTRODUCTION</h1>
+          <div className="line"></div>
           <div className="row">
             <div className="imageText">
               <p>
@@ -42,6 +42,8 @@ function App() {
         </div>
         <div className="why_you_should">
           <h1>Why you should come to Homecoming'23.</h1>
+          <div className="line"></div>
+
           <div className="row">
             <div className="imageText">
               <p>
@@ -57,10 +59,12 @@ function App() {
             </div>
           </div>
         </div>
-        <button>REGISTER HERE.</button>
+        <a className="button">REGISTER HERE.</a>
 
         <div className="event_details">
           <h1>EVENT PLAN</h1>
+          <div className="line"></div>
+
           <div>
             <div className="eventDetailRow">
               <div className="eventDetailsContainer">
@@ -100,6 +104,8 @@ function App() {
 
         <div className="howToRegister">
           <h1>Registration and Payment Instructions</h1>
+          <div className="line"></div>
+
           <p>
             Dear alumni, You are probably wondering about how you can register
             for the upcoming alumni. Don’t worry. NUST Alumni Homecoming has got
@@ -110,14 +116,14 @@ function App() {
         </div>
         <div className="youtube">
           <iframe
-            width="536"
+            width="928"
             height="522"
-            src="https://www.youtube.com/embed/7nL05WFoBJk"
-            title="you are finally here"
+            src="https://www.youtube.com/embed/f2EqECiTBL8"
+            title="Node.js Full Course for Beginners | Complete All-in-One Tutorial | 7 Hours"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen
-          ></iframe>
+          ></iframe>{" "}
         </div>
       </div>
     </div>

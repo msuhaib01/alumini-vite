@@ -15,14 +15,25 @@
   gap: 16px;
 }
 
+.button {
+  background-color: white;
+  border: 9px solid #611247;
+  border-radius: 50px;
+  padding: 24px 70px;
+  font-size: 24px;
+  font-weight: 800;
+}
+
 h1 {
   text-align: center;
+  margin: 16px 0 16px 0;
 }
 .content {
   display: flex;
   flex-direction: column;
-  margin: 0 200px 0 200px;
+  margin: 30px 200px 0 200px;
   align-items: center;
+  gap: 64px;
 }
 .row {
   display: flex;
@@ -56,4 +67,16 @@ h1 {
   flex-direction: row;
   gap: 64px;
   justify-content: center;
+}
+
+.line {
+  width: 40%;
+  margin: 0 auto;
+  margin-bottom: 32px;
+  border: 2px solid #611247;
+  border-radius: 2px;
+}
+
+.youtube {
+  margin-bottom: 150px;
 }
