@@ -1,6 +1,4 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
 import Caro from "./Caro/Caro";
 function App() {
@@ -9,10 +7,15 @@ function App() {
   return (
     <div className="main">
       <div className="navbar">
-        <div className="nav_left">LOGO</div>
+        <div className="nav_left">
+          <img
+            style={{ width: "50px" }}
+            src="https://i.imgur.com/MqoKbhP.jpg"
+          ></img>
+        </div>
         <div className="nav_right">
-          <a>Nust</a>
-          <a>Alumni</a>
+          <a href="https://www.nust.edu.pk/">NUST</a>
+          <a href="https://alumni.nust.edu.pk/">Alumni</a>
         </div>
       </div>
       <div className="carosel">
@@ -37,7 +40,13 @@ function App() {
                 planned sports activities and social night taking center stage.
               </p>
             </div>
-            <div className="tempImage">INSERT IMAGE HERE</div>
+            <img
+              style={{
+                width: "40%",
+              }}
+              src="https://i.imgur.com/cHV3dCE.png"
+              title="source: imgur.com"
+            />
           </div>
         </div>
         <div className="why_you_should">
@@ -45,30 +54,45 @@ function App() {
           <div className="line"></div>
 
           <div className="row">
-            <div className="imageText">
-              <p>
-                Alumni Homecoming'23, where our distinguished grads return to
-                their home-away-from-home, sharing pearls of wisdom with the
-                newest additions to the NUST family. It's not merely an event;
-                it's a heartwarming family reunion taking a trip down the memory
-                lane, infused with a burst of inspiration! NUST Homecoming 23 is
-                a celebration of fresh opportunities and forging meaningful
-                connections. Don't let this chance slip away—be part of an
-                unforgettable experience!{" "}
-              </p>
-            </div>
+            <p
+              style={{
+                padding: "0 50px",
+              }}
+            >
+              Alumni Homecoming'23, where our distinguished grads return to
+              their home-away-from-home, sharing pearls of wisdom with the
+              newest additions to the NUST family. It's not merely an event;
+              it's a heartwarming family reunion taking a trip down the memory
+              lane, infused with a burst of inspiration! NUST Homecoming 23 is a
+              celebration of fresh opportunities and forging meaningful
+              connections. Don't let this chance slip away—be part of an
+              unforgettable experience!{" "}
+            </p>
           </div>
         </div>
-        <a className="button">REGISTER HERE.</a>
+        <a href="https://alumni.nust.edu.pk" className="button">
+          REGISTER HERE.
+        </a>
 
         <div className="event_details">
           <h1>EVENT PLAN</h1>
           <div className="line"></div>
+          <img
+            style={{
+              width: "90%",
+            }}
+            src="https://i.imgur.com/j4lu7Jm.png"
+            title="source: imgur.com"
+          />
 
-          <div>
+          <div className="eventDetailContainer">
             <div className="eventDetailRow">
               <div className="eventDetailsContainer">
-                <img className="eventImage" />
+                <img
+                  style={{ width: "80%" }}
+                  src="https://i.imgur.com/UwJOas6.png"
+                  className="eventImage"
+                />
                 <h2>Sports Gala</h2>
                 <p>
                   A perfect chance for the alumni to spend a wholesome day with
@@ -78,7 +102,11 @@ function App() {
                 </p>
               </div>
               <div className="eventDetailsContainer">
-                <img className="eventImage" />
+                <img
+                  style={{ width: "80%" }}
+                  src="https://i.imgur.com/fEErpcc.png"
+                  className="eventImage"
+                />
                 <h2>NustFest</h2>
                 <p>
                   Filled with fun and games, the Carnival Night is going to be a
@@ -89,7 +117,11 @@ function App() {
             </div>
             <div className="eventDetailRow">
               <div className="eventDetailsContainer">
-                <img className="eventImage" />
+                <img
+                  style={{ width: "80%" }}
+                  src="https://i.imgur.com/3IZxkwn.png"
+                  className="eventImage"
+                />
                 <h2>Alumni Summit</h2>
                 <p>
                   Featuring a panel discussion that will replenish your
@@ -110,8 +142,8 @@ function App() {
             Dear alumni, You are probably wondering about how you can register
             for the upcoming alumni. Don’t worry. NUST Alumni Homecoming has got
             your back. The process is really simple. To make it more feasible
-            for you, we have listed 8 easy steps, following which you will be
-            able to register yourself:
+            for you, we have this video, following which you will be able to
+            register yourself:
           </p>
         </div>
         <div className="youtube">
